@@ -1,0 +1,18 @@
+
+[
+    {
+        "ten": "Website Portfolio",
+        "moTa": "Xay dung website gioi thieu ban than bang HTML va CSS",
+        "congNghe": "HTML5, CSS3"
+    },
+    {
+        "ten": "Quan ly sinh vien",
+        "moTa": "Xay dung chuong trinh quan ly thong tin sinh vien",
+        "congNghe": "Java"
+    },
+    {
+        "ten": "Website ban hang",
+        "moTa": "Xay dung giao dien website ban dien thoai va phu kien",
+        "congNghe": "HTML5, CSS3, JavaScript"
+    }
+]

@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Tiến Đạt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Liên hệ với tôi</h1>
+        <p>Kết nối và trao đổi thông tin</p>
+        <button id="theme-button" type="button">
+            Chuyển chế độ sáng/tối
+        </button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        
+    <section>
+        <h2>Form liên hệ</h2>
+
+        <form id="contact-form" action="#" method="post">
+
+            <label for="fullname">Họ và tên:</label>
+            <input type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Nhập họ và tên"
+                required>
+
+            <label for="email">Email:</label>
+            <input type="email"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+                required>
+
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                placeholder="0123456789"
+                required>
+
+            <label for="birthday">Ngày sinh:</label>
+            <input type="date"
+                id="birthday"
+                name="birthday"
+                required>
+
+            <label for="message">Nội dung liên hệ:</label>
+            <textarea id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Nhập nội dung"
+                    required></textarea>
+
+            <button type="submit">Gửi thông tin</button>
+
+            <p id="form-message" role="status" aria-live="polite"></p>
+
+        </form>
+    </section>
+
+    <script src="js/script.js" defer></script>
+
+
+    </main>
+
+    <footer>
+        <p>© 2026 Nguyễn Ngọc Tiến Đạt</p>
+        <p>Email: example@gmail.com</p>
+    </footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
